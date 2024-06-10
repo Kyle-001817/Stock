@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Stock
+build_property.RootNamespace = Stock
+build_property.ProjectDir = D:\ITU\S5\Mr_Tahina\Conception\Stock\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ITU\S5\Mr_Tahina\Conception\Stock
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/Etat_stock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdGF0X3N0b2NrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/GoTo_Modif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHb1RvX01vZGlmLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/InsertMouvement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNlcnRNb3V2ZW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/Mouvement_stock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNb3V2ZW1lbnRfc3RvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/Result_etat_stock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXN1bHRfZXRhdF9zdG9jay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/Sortie_stock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb3J0aWVfc3RvY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Home/Voir_Sortie_stock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWb2lyX1NvcnRpZV9zdG9jay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITU/S5/Mr_Tahina/Conception/Stock/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-msk9pet0hh

@@ -1,0 +1,41 @@
+@{
+    var mo = ViewData["mo"] as List<Validation>;
+    var mouvements = ViewData["mouvements"] as List<Validation>;
+}
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12 mt-5">
+            <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">Detail Sortie de Stock</h5>
+                <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Article</th>
+                        <th scope="col">Magasin</th>
+                        <th scope="col">Quantite Sortante</th>
+                        <th scope="col">Prix Sortante</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach(var item in mo){
+                        <tr>
+                        <td>@item.daty</td>
+                        <td>@item.article_id</td>
+                        <td>@item.magasin_id</td>
+                        <td>@item.quantite</td>
+                        <td>@item.prix_unitaire</td>
+                        </tr>
+                        }
+                    </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</div>

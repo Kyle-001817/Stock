@@ -1,0 +1,79 @@
+@{
+    var articles = ViewData["Articles"] as List<Articles>;
+    var magasins = ViewData["Magasins"] as List<Magasins>;
+    var types_mouvement = ViewData["Types_mouvement"] as List<Type_mouvement>;
+    var mouvement = ViewData["Mouvements"] as List<Mouvements>;
+    var m = ViewData["m"] as List<Mouvements>;
+    var mo = ViewData["mo"] as List<Mouvements>;
+}
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <div class="col-lg-12 mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <div class="tab-pane" id="edit">
+                        <center><h3>Mouvement</h3></center>
+                        <center><h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana; color:red">@ViewBag.exceptionDestockage</h1></center>
+                        <form asp-controller="Home" asp-action="Modifier" method="post">
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Date</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" name="daty" style="height: 50px" type="date" value="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Article</label>
+                                <div class="col-lg-9">
+                                    <select name="article_id" id="" class="form-control" style="height: 50px">
+                                        @foreach(var item in articles){
+                                            <option value="@item.article_id">@item.nom</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Quantite</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" name="quantite" type="text" value="" style="height: 50px">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Prix</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" name="prix_unitaire" type="number" value="" style="height: 50px">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Magasin</label>
+                                <div class="col-lg-9">
+                                    <select name="magasin_id" id="" class="form-control" style="height: 50px">
+                                        @foreach(var item in magasins){
+                                            <option value="@item.magasin_id">@item.nom</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Type</label>
+                                <div class="col-lg-9">
+                                    <select name="type_mouvement_id" id="" class="form-control" style="height: 50px">
+                                        @foreach(var item in types_mouvement){
+                                            <option value="@item.type_mouvement_id">@item.nom</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label"></label>
+                                <div class="col-lg-9">
+                                    <button type="submit" class="btn btn-primary">Valider</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

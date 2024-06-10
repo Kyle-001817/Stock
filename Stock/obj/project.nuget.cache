@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AAoeCKGso2yN4X+zgVVzFs17R7y07muRuXh0Rtvq/IMGYnEbXv07vfinG3/JhuYRtIE8oohgzXbNgaR5dCLudA==",
+  "success": false,
+  "projectFilePath": "D:\\ITU\\S5\\Mr_Tahina\\Conception\\Stock\\Stock.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "libraryId": "Npgsql"
+    }
+  ]
+}
